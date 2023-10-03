@@ -1,0 +1,37 @@
+.post{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.post_big{
+    grid-column: span 2;
+}
+.post__image{
+    height: 273px;
+    margin-bottom: 10px;
+}
+.post__image_big{
+    height: 600px;
+}
+.cardContent {
+    padding: 20px;
+}
+.cardContent h2 {
+    font-size: 1.5rem;
+}
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+}
+.post__footerButton {
+    border: 2px solid #0A0A0A;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.post__footerButton:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+
+}
+.container > div:first-child{
+    margin-right: 10px;
+}
+.container > div{
+    display: flex;
+    align-items: center;
+}
+.container > div > img{
+    margin-right: 5px;
+    cursor: pointer;
+}
